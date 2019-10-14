@@ -23,7 +23,7 @@ make paratest-classes-group
 - Make: 4.1
 
 ## Output
-Paratest always takes up to 10 seconds.
+In this test, `Paratest` always takes up to 10 seconds.
 
 #### Functional Group Test
 ```bash
