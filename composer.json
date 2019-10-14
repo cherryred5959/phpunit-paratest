@@ -1,0 +1,25 @@
+{
+  "name": "cherryred5959/phpunit-paratest",
+  "type": "project",
+  "description": "Sample For PHPUnit with Paratest",
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^8.0",
+    "brianium/paratest": "^3.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ]
+  }
+}

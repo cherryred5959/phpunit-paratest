@@ -1,0 +1,10 @@
+.idea
+LICENSE
+README.md
+vendor
+*.cache
+*.log
+Makefile
+.env.example
+Dockerfile
+docker-compose.yml
